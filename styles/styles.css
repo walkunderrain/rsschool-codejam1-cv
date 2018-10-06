@@ -1,0 +1,34 @@
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../images/38-fon-dlya-sayta.png); 
+}
+img.photo {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    border: 2px grey;
+}
+header ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+div.introContainer {
+    /*margin: auto;*/
+    text-align: center;
+}
+header ul {
+    padding-left: 0px;
+}
+footer {
+    padding: 25px;
+    text-align: center;
+}
+div ul.unorderedLists{
+    display: inline-block;
+}
+div.introduction p {
+    display: inline-block;
+    text-align: center;
+}
