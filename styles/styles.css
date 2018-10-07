@@ -14,16 +14,17 @@ div.listOfIcons {
 }
 
 ul.icons img {
-   transition: .25s;
+   transition: opacity 0.5s;
 }
-
+ul.icons img:hover {
+    opacity: 0.5;
+}
 header ul li {
     display: inline-block;
-    margin: 8px;
+    padding: 10px;
 }
 
 div.introContainer {
-    /*margin: auto;*/
     text-align: center;
 }
 header ul {
