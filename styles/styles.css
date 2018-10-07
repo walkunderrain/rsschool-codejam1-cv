@@ -14,7 +14,7 @@ div.listOfIcons {
 }
 
 ul.icons img {
-   transition: opacity 0.5s;
+   transition: opacity 0.25s;
 }
 ul.icons img:hover {
     opacity: 0.5;
@@ -42,4 +42,22 @@ div ul.unorderedLists{
 div.introduction p {
     display: inline-block;
     text-align: center;
+}
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
