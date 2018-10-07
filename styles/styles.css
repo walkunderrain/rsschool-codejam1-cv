@@ -1,7 +1,10 @@
 body {
-    
     font-family: 'Poppins', sans-serif;
     background-image: url(../images/48-fon-dlya-sayta.png); 
+}
+div.container {
+    width: 1024px;
+    margin: auto;
 }
 img.photo {
     height: 15%;
@@ -44,7 +47,7 @@ div.introduction p {
     text-align: center;
 }
 hr {
-    overflow: visible; /* For IE */
+    overflow: visible; 
     height: 30px;
     border-style: solid;
     border-color: black;
